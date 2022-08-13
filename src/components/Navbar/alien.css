@@ -1,0 +1,11 @@
+.color{
+
+    background-color: chartreuse;
+
+}
+
+#fuente{
+    margin: 0 0 0 10px;
+    color: blue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
+}
