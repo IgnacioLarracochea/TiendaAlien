@@ -1,3 +1,7 @@
+import  CardWidget  from '../ItemListContainer/CardWidget';
+
+
+
 function NavBar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light color" >
@@ -8,20 +12,21 @@ function NavBar() {
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                     <li>
-                        <a className="nav-link" href="#">Comidas</a>
+                    <a className="nav-link" to='../snacks/snacks' >Comidas</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Bebidas</a>
+                    <a className="nav-link" to='../bebidas/bebidas' >Bebidas</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Ofertas</a>
+                        <a className="nav-link" to='../combos/combos'>Combos</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Combos</a>
+                        <CardWidget/>
                     </li>
                 </ul>
             </div>
         </nav>
+        
     );
 }
 

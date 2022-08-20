@@ -5,7 +5,13 @@
 }
 
 #fuente{
-    margin: 0 0 0 10px;
     color: blue;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
+    font-size: x-large;
+}
+
+.nav-link{
+
+    margin-left: 200px;
+
 }
