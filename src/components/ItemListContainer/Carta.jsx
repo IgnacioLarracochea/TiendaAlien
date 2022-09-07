@@ -1,9 +1,13 @@
+
+
+
 function Carta() {
     return (
         <div class="row">
         <div class="col-sm-6">
           <div class="card">
             <div class="card-body">
+              <img src="" alt="" />
               <h5 class="card-title">Hacete un verdadero Alien consumiendo nuestro productos</h5>
               <p class="card-text">Puede hacerte bien o mal pero lo importante es que te haga algo</p>
               <a href="#" class="btn btn-primary">Vamos a COMERRRR</a>

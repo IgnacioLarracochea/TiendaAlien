@@ -1,5 +1,5 @@
 import  CardWidget  from '../ItemListContainer/CardWidget';
-
+import { Link } from 'react-router-dom';
 
 
 function NavBar() {
@@ -12,13 +12,13 @@ function NavBar() {
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                     <li>
-                    <a className="nav-link" to='../snacks/snacks' >Comidas</a>
+                    <Link className="nav-link" to='../Comida/comida' >Comidas</Link>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" to='../bebidas/bebidas' >Bebidas</a>
+                    <Link className="nav-link" to='../bebidas/bebidas' >Bebidas</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" to='../combos/combos'>Combos</a>
+                        <Link className="nav-link" to='../combos/combos'>Combos</Link>
                     </li>
                     <li className="nav-item">
                         <CardWidget/>

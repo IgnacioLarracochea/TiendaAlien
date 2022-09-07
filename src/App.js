@@ -2,9 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 import "./components/Navbar/alien.css";
 import  NavBar  from './components/Navbar/Navbar';
-import {Contador} from './components/ItemCount/ItemCount'
 import Carta from './components/ItemListContainer/Carta';
+import {ItemListContainer} from './components/ItemListContainer/ItemListContainer';
 import Item from './components/Item/Item';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+
 
 
 
@@ -16,7 +18,7 @@ function App() {
   }
   return(
     <div>
-      <NavBar/>
+      <Router><NavBar/></Router>
       <br/>
       <br/>
       <br/>
@@ -30,7 +32,7 @@ function App() {
       <br/>
       <br/>
       <br/>
-      <Item/>
+      <ItemListContainer/>
     </div> 
   
     

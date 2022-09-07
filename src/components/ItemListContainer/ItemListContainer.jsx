@@ -7,7 +7,7 @@ function ItemListContainer({greeting}) {
 
     useEffect(() => {
 
-        let products = [{id: 1, title: "Monster Verde", price: 350}, {id: 2, title: "Seven-Up", price: 250}];
+        let products = [{id: 1, title: "Monster Verde", price: 350, img:"./imagenes/Sprite500.jpg",}, {id: 2, title: "Seven-Up", price: 250}];
             new Promise((resolve)=>{
 
                 setTimeout(()=>{
@@ -29,7 +29,7 @@ function ItemListContainer({greeting}) {
             {items.length ?
                 <ItemList items={items}/> :
                 <spinner></spinner>    
-        } 
+            } 
 
          </div>
 
